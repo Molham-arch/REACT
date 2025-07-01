@@ -8,13 +8,9 @@
 ### 1. Clone de repository
 
 ```bash
-git clone https://github.com/jouwgebruikersnaam/gamegrid-hosting.git
-cd gamegrid-hosting
+git clone https://github.com/Molham-arch/REACT.git
+cd Game-Grid
 2. Installeer de dependencies
-bash
-Copy code
 npm install
-3. Start de ontwikkelserver
-bash
-Copy code
+3. Start 
 npm start
