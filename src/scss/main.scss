@@ -1,0 +1,48 @@
+
+
+
+$primary: #ffb900;
+$secondary: #101828;
+$black: #4a5565;
+$light: #f1f3f9;
+$body:#fffefc;
+
+// Import Bootstrap SCSS NA variabelen!
+@import "bootstrap/scss/bootstrap";
+
+// Je eigen custom styles mogen hieronder
+@import url('https://fonts.google.com/specimen/Nunito');
+
+body {
+  background: $body;
+  color: $black;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.text-orange {
+  color: #FF7300 !important;
+}
+.btn-orange-outline {
+  color: #FF7300;
+  border: 2px solid #FF7300;
+  background: none;
+  font-weight: 700;
+  border-radius: 0.35rem;
+  transition: all 0.2s;
+}
+.btn-orange-outline:hover,
+.btn-orange-outline:focus {
+  background: #FF7300;
+  color: #fff;
+  border-color: #d65c00;
+}
+
+
+
+
+
+
+
+
+
+
